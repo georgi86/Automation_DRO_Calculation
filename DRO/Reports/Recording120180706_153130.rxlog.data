@@ -1,0 +1,396 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="268eb75e98127c45"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="EVMX"
+		host="SNAPDM200"
+		rxversion="7.0.1.0"
+		osversion="Windows 7 Service Pack 1 32bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="7/6/2018 15:31:32"
+		timestampiso="2018-07-06T12:31:32"
+		timeoutfactor="1"
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<errormessage>
+			Screenshot of item 'DRORepository.SnapXUntitled.AxisAlignmentButton' does not contain the specified image.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.085"
+			timeRelativeToTestModuleStartTime="00:00.085"
+			timeWallClock="15:31:32"
+			time="00:00.085"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SnapXUntitled.InchMillimeterButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@title='Untitled']//container[@controlid='59649']/button[@controlid='1666']"
+				fullname="DRORepository.SnapXUntitled.InchMillimeterButton"
+				id="ebeb820f89264e2bafc6e4e2cbeb82ba"
+				timeout="60000"
+				codefile="d:\OTHERS\DRO\DRO\Recording1.cs"
+				codeline="82"
+				itemindex="27"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.308"
+			timeRelativeToTestModuleStartTime="00:03.308"
+			timeWallClock="15:31:35"
+			time="00:03.308"
+			level="Info"
+			category="Validation">
+			<message>
+				(Optional Action)<br/>Validating ContainsImage (Screenshot: 'Screenshot1' with region {X=0,Y=0,Width=36,Height=36}) on item 'SnapXUntitled.CartesianPolarButton'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@title='Untitled']//container[@controlid='59649']/button[@controlid='1667']"
+				fullname="DRORepository.SnapXUntitled.CartesianPolarButton"
+				id="79796d2eb9824237853ef6025168c5f1"
+				timeout="60000"
+				codefile="d:\OTHERS\DRO\DRO\Recording1.cs"
+				codeline="87"
+				itemindex="28"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.324"
+			timeRelativeToTestModuleStartTime="00:05.324"
+			timeWallClock="15:31:37"
+			time="00:05.324"
+			level="Success"
+			category="Validation">
+			<message>
+				Screenshot of item 'DRORepository.SnapXUntitled.CartesianPolarButton' does contain the specified image.
+			</message>
+			<metainfo
+				codefile="d:\OTHERS\DRO\DRO\Recording1.cs"
+				codeline="88"
+				loglvl="Success"
+				id="79796d2eb9824237853ef6025168c5f1"
+				path="/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@title='Untitled']//container[@controlid='59649']/button[@controlid='1667']"
+				fullname="DRORepository.SnapXUntitled.CartesianPolarButton"
+				itemindex="28">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.427"
+			timeRelativeToTestModuleStartTime="00:05.427"
+			timeWallClock="15:31:37"
+			time="00:05.427"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SnapXUntitled.CartesianPolarButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@title='Untitled']//container[@controlid='59649']/button[@controlid='1667']"
+				fullname="DRORepository.SnapXUntitled.CartesianPolarButton"
+				id="79796d2eb9824237853ef6025168c5f1"
+				timeout="60000"
+				codefile="d:\OTHERS\DRO\DRO\Recording1.cs"
+				codeline="92"
+				itemindex="29"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.444"
+			timeRelativeToTestModuleStartTime="00:07.444"
+			timeWallClock="15:31:39"
+			time="00:07.444"
+			level="Info"
+			category="Validation">
+			<message>
+				(Optional Action)<br/>Validating ContainsImage (Screenshot: 'Screenshot2' with region {X=0,Y=0,Width=36,Height=36}) on item 'SnapXUntitled.CartesianPolarButton'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@title='Untitled']//container[@controlid='59649']/button[@controlid='1667']"
+				fullname="DRORepository.SnapXUntitled.CartesianPolarButton"
+				id="79796d2eb9824237853ef6025168c5f1"
+				timeout="60000"
+				codefile="d:\OTHERS\DRO\DRO\Recording1.cs"
+				codeline="97"
+				itemindex="30"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.455"
+			timeRelativeToTestModuleStartTime="00:09.455"
+			timeWallClock="15:31:41"
+			time="00:09.455"
+			level="Failure"
+			category="Validation">
+			<message>
+				Screenshot of item 'DRORepository.SnapXUntitled.CartesianPolarButton' does not contain the specified image.
+			</message>
+			<metainfo
+				codefile="d:\OTHERS\DRO\DRO\Recording1.cs"
+				codeline="98"
+				loglvl="Failure"
+				id="79796d2eb9824237853ef6025168c5f1"
+				path="/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@title='Untitled']//container[@controlid='59649']/button[@controlid='1667']"
+				fullname="DRORepository.SnapXUntitled.CartesianPolarButton"
+				itemindex="30">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.462"
+			timeRelativeToTestModuleStartTime="00:09.462"
+			timeWallClock="15:31:41"
+			time="00:09.462"
+			level="Failure"
+			category="Expected image">
+			<message>
+				<a class="thickbox" style="padding-right:8px" rel="module" href=".\Recordin_6bc9a0b2_rxlog.jpg"><img src=".\Recordin_6bc9a0b2_rxlog_thumb.jpg" alt="Screenshot"/></a>
+			</message>
+			<metainfo
+				codefile="d:\OTHERS\DRO\DRO\Recording1.cs"
+				codeline="98"
+				loglvl="Failure"
+				itemindex="30">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.555"
+			timeRelativeToTestModuleStartTime="00:09.555"
+			timeWallClock="15:31:41"
+			time="00:09.555"
+			level="Failure"
+			category="Searched image">
+			<message>
+				<a class="thickbox" style="padding-right:8px" rel="module" href=".\Recordin_e71154d_rxlog.jpg"><img src=".\Recordin_e71154d_rxlog_thumb.jpg" alt="Screenshot"/></a>
+			</message>
+			<metainfo
+				codefile="d:\OTHERS\DRO\DRO\Recording1.cs"
+				codeline="98"
+				loglvl="Failure"
+				itemindex="30">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.656"
+			timeRelativeToTestModuleStartTime="00:09.656"
+			timeWallClock="15:31:41"
+			time="00:09.656"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SnapXUntitled.CartesianPolarButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@title='Untitled']//container[@controlid='59649']/button[@controlid='1667']"
+				fullname="DRORepository.SnapXUntitled.CartesianPolarButton"
+				id="79796d2eb9824237853ef6025168c5f1"
+				timeout="60000"
+				codefile="d:\OTHERS\DRO\DRO\Recording1.cs"
+				codeline="102"
+				itemindex="31"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.792"
+			timeRelativeToTestModuleStartTime="00:11.792"
+			timeWallClock="15:31:43"
+			time="00:11.792"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating ContainsImage (Screenshot: 'Screenshot1' with region {X=0,Y=0,Width=36,Height=36}) on item 'SnapXUntitled.AxisAlignmentButton'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@title='Untitled']//container[@controlid='59649']/button[@controlid='1665']"
+				fullname="DRORepository.SnapXUntitled.AxisAlignmentButton"
+				id="4268e7f923f549d5896ec8ab7d81b72f"
+				timeout="60000"
+				codefile="d:\OTHERS\DRO\DRO\Recording1.cs"
+				codeline="106"
+				itemindex="32"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.583"
+			timeRelativeToTestModuleStartTime="00:13.583"
+			timeWallClock="15:31:45"
+			time="00:13.583"
+			level="Success"
+			category="Validation">
+			<message>
+				Screenshot of item 'DRORepository.SnapXUntitled.AxisAlignmentButton' does contain the specified image.
+			</message>
+			<metainfo
+				codefile="d:\OTHERS\DRO\DRO\Recording1.cs"
+				codeline="107"
+				loglvl="Success"
+				id="4268e7f923f549d5896ec8ab7d81b72f"
+				path="/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@title='Untitled']//container[@controlid='59649']/button[@controlid='1665']"
+				fullname="DRORepository.SnapXUntitled.AxisAlignmentButton"
+				itemindex="32">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.688"
+			timeRelativeToTestModuleStartTime="00:13.688"
+			timeWallClock="15:31:45"
+			time="00:13.688"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SnapXUntitled.AxisAlignmentButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@title='Untitled']//container[@controlid='59649']/button[@controlid='1665']"
+				fullname="DRORepository.SnapXUntitled.AxisAlignmentButton"
+				id="4268e7f923f549d5896ec8ab7d81b72f"
+				timeout="60000"
+				codefile="d:\OTHERS\DRO\DRO\Recording1.cs"
+				codeline="110"
+				itemindex="33"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.725"
+			timeRelativeToTestModuleStartTime="00:15.725"
+			timeWallClock="15:31:47"
+			time="00:15.725"
+			level="Info"
+			category="Validation"
+			errimg=".\Recordin_9febea2e_5ebfd034_trace.jpg"
+			errthumb=".\Recordin_9febea2e_5ebfd034_trace_thumb.jpg">
+			<message>
+				Validating ContainsImage (Screenshot: 'Screenshot2' with region {X=0,Y=0,Width=36,Height=36}) on item 'SnapXUntitled.AxisAlignmentButton'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@title='Untitled']//container[@controlid='59649']/button[@controlid='1665']"
+				fullname="DRORepository.SnapXUntitled.AxisAlignmentButton"
+				id="4268e7f923f549d5896ec8ab7d81b72f"
+				timeout="60000"
+				codefile="d:\OTHERS\DRO\DRO\Recording1.cs"
+				codeline="114"
+				itemindex="34"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.719"
+			timeRelativeToTestModuleStartTime="00:17.719"
+			timeWallClock="15:31:49"
+			time="00:17.719"
+			level="Failure"
+			category="Validation"
+			errimg=".\Recordin_9febea2e_a62e44d5_trace.jpg"
+			errthumb=".\Recordin_9febea2e_a62e44d5_trace_thumb.jpg">
+			<message>
+				Screenshot of item 'DRORepository.SnapXUntitled.AxisAlignmentButton' does not contain the specified image.
+			</message>
+			<metainfo
+				codefile="d:\OTHERS\DRO\DRO\Recording1.cs"
+				codeline="115"
+				loglvl="Failure"
+				id="4268e7f923f549d5896ec8ab7d81b72f"
+				path="/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@title='Untitled']//container[@controlid='59649']/button[@controlid='1665']"
+				fullname="DRORepository.SnapXUntitled.AxisAlignmentButton"
+				itemindex="34">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.726"
+			timeRelativeToTestModuleStartTime="00:17.726"
+			timeWallClock="15:31:49"
+			time="00:17.726"
+			level="Failure"
+			category="Expected image">
+			<message>
+				<a class="thickbox" style="padding-right:8px" rel="module" href=".\Recordin_267ab77c_rxlog.jpg"><img src=".\Recordin_267ab77c_rxlog_thumb.jpg" alt="Screenshot"/></a>
+			</message>
+			<metainfo
+				codefile="d:\OTHERS\DRO\DRO\Recording1.cs"
+				codeline="115"
+				loglvl="Failure"
+				itemindex="34">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.767"
+			timeRelativeToTestModuleStartTime="00:17.767"
+			timeWallClock="15:31:49"
+			time="00:17.767"
+			level="Failure"
+			category="Searched image">
+			<message>
+				<a class="thickbox" style="padding-right:8px" rel="module" href=".\Recordin_c9222c17_rxlog.jpg"><img src=".\Recordin_c9222c17_rxlog_thumb.jpg" alt="Screenshot"/></a>
+			</message>
+			<metainfo
+				codefile="d:\OTHERS\DRO\DRO\Recording1.cs"
+				codeline="115"
+				loglvl="Failure"
+				itemindex="34">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.771"
+			timeRelativeToTestModuleStartTime="00:17.771"
+			timeWallClock="15:31:49"
+			time="00:17.771"
+			level="Error"
+			category="Module"
+			errimg=".\Recordin_9febea2e_a62e44d5_trace.jpg"
+			errthumb=".\Recordin_9febea2e_a62e44d5_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Screenshot of item 'DRORepository.SnapXUntitled.AxisAlignmentButton' does not contain the specified image.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Validate.ValidateImage(ValidateImageMethod validationMethod, Element element, Bitmap image, FindOptions findOptions, String message, Options options, RepoItemInfo itemInfo)
+   at Ranorex.Validate.ContainsImage(Element element, Bitmap image, FindOptions findOptions, String message, Options options)
+   at Ranorex.Validate.ContainsImage(RepoItemInfo itemInfo, Bitmap image, FindOptions findOptions, String message, Options options)
+   at Ranorex.Validate.ContainsImage(RepoItemInfo itemInfo, Bitmap image, FindOptions findOptions)
+   at DRO.Recording1.Ranorex.Core.Testing.ITestModule.Run() in d:\OTHERS\DRO\DRO\Recording1.cs:line 115
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Boolean skipIteration)"
+				codefile="d:\OTHERS\DRO\DRO\Recording1.cs"
+				codeline="115"
+				loglvl="Error"
+				id="4268e7f923f549d5896ec8ab7d81b72f"
+				path="/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@title='Untitled']//container[@controlid='59649']/button[@controlid='1665']"
+				fullname="DRORepository.SnapXUntitled.AxisAlignmentButton"
+				itemindex="34">
+			</metainfo>
+		</item>
+	</activity>
+</report>

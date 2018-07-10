@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc
+rxversion="7.0">
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="DRO"
+      id="feddbb45-e658-44dd-9d95-5fd2ea3643bd"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="DRO"
+      id="feddbb45-e658-44dd-9d95-5fd2ea3643bd"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

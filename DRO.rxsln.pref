@@ -1,0 +1,13 @@
+﻿<Properties>
+  <ActiveConfiguration value="Debug" />
+  <ActivePlatform value="x86" />
+  <SerializedValue name="ModuleBrowserState">
+    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <string>{6E75E4FA-ACDB-494C-B4E5-25F2E1DAECAA}</string>
+      <string>6e12a760-6636-488c-b3e9-7d256aa61ae5</string>
+      <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
+    </ArrayOfString>
+  </SerializedValue>
+  <ProjectBrowserState value="[Solution DRO[DRO[]]]&#xD;&#xA;Solution DRO\DRO\Recording1.rxrec&#xD;&#xA;Solution DRO" />
+  <StartupProject value="{6E75E4FA-ACDB-494C-B4E5-25F2E1DAECAA}" />
+</Properties>

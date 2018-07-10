@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{6E75E4FA-ACDB-494C-B4E5-25F2E1DAECAA}</ProjectGuid>
+    <TargetFrameworkProfile />
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>DRO</RootNamespace>
+    <AssemblyName>DRO</AssemblyName>
+    <RanorexVersion>7.0</RanorexVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <RanorexTargetsPath>$(MSBuildExtensionsPath)\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
+    <projectdefaultrepository>9815c257-2f2a-487f-b22f-b21e21664184</projectdefaultrepository>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ranorex.Core" />
+    <Reference Include="Ranorex.Plugin.Cef" />
+    <Reference Include="Ranorex.Plugin.ChromeWeb" />
+    <Reference Include="Ranorex.Plugin.Flex" />
+    <Reference Include="Ranorex.Plugin.Java" />
+    <Reference Include="Ranorex.Plugin.Mobile" />
+    <Reference Include="Ranorex.Plugin.MozillaWeb" />
+    <Reference Include="Ranorex.Plugin.Msaa" />
+    <Reference Include="Ranorex.Plugin.Office" />
+    <Reference Include="Ranorex.Plugin.Qt" />
+    <Reference Include="Ranorex.Plugin.RawText" />
+    <Reference Include="Ranorex.Plugin.Sap" />
+    <Reference Include="Ranorex.Plugin.Uia" />
+    <Reference Include="Ranorex.Plugin.Web" />
+    <Reference Include="Ranorex.Plugin.WebDriver" />
+    <Reference Include="Ranorex.Plugin.Win32" />
+    <Reference Include="Ranorex.Plugin.WinForms" />
+    <Reference Include="Ranorex.Plugin.Wpf" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <id>5111699e-8e32-4775-98cf-f94a1ea016ec</id>
+    </Compile>
+    <Compile Include="DRORepository.cs">
+      <BoundTo>9815c257-2f2a-487f-b22f-b21e21664184</BoundTo>
+      <DependentUpon>DRORepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>eb00be83-ec9a-4c8c-8a79-08779dfa4fa7</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>627a59eb-7de6-4dc3-9178-09f40f13e4ce</id>
+    </Compile>
+    <Compile Include="Recording1.cs">
+      <BoundTo>8e626cbf-86d8-4336-83c5-0c9574d407f2</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ff831302-7916-4181-8946-4932735276dd</id>
+    </Compile>
+    <Compile Include="Recording1.UserCode.cs">
+      <BoundTo>8e626cbf-86d8-4336-83c5-0c9574d407f2</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>af7730bd-829b-46d1-9eee-b4fb2ac243c5</id>
+    </Compile>
+    <Compile Include="UtilityFunctions.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <id>3aa188a4-5739-4187-bcec-f1fa07906bf3</id>
+    </None>
+    <None Include="DRORepository.rximg">
+      <BoundTo>9815c257-2f2a-487f-b22f-b21e21664184</BoundTo>
+      <DependentUpon>DRORepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>b8d4b7d2-fb31-4e55-a174-1abc699c1d63</id>
+    </None>
+    <None Include="DRORepository.rxrep">
+      <id>9815c257-2f2a-487f-b22f-b21e21664184</id>
+      <repoid>1a642ed6-92b8-49b3-bb30-a67c577d10e4</repoid>
+      <reporootid>e0b64d77-19ea-4874-bc24-f85affbc4121</reporootid>
+    </None>
+    <None Include="Recording1.rxrec">
+      <BoundTo>9815c257-2f2a-487f-b22f-b21e21664184</BoundTo>
+      <id>8e626cbf-86d8-4336-83c5-0c9574d407f2</id>
+      <recordtableid>bfcf6447-ed58-4ed8-a9a8-8386b265be2b</recordtableid>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DRO.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>ce70c6f9-f953-4922-95b0-4e5147b588c6</id>
+    </Content>
+    <Content Include="DRO.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>031e7dba-abc6-4120-8ec6-f00a8e4484a1</id>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />
+</Project>

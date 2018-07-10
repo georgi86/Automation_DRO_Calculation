@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="9858194abf04d81"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="EVMX"
+		host="SNAPDM200"
+		rxversion="7.0.1.0"
+		osversion="Windows 7 Service Pack 1 32bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="7/6/2018 13:57:09"
+		timestampiso="2018-07-06T10:57:09"
+		timeoutfactor="1"
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.068"
+			timeRelativeToTestModuleStartTime="00:00.068"
+			timeWallClock="13:57:09"
+			time="00:00.068"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SnapXUntitled.Container59649.Button' at 23;16.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@title='Untitled' and @class='Afx:002A0000:b:00010003:00000006:002700B5']//container[@controlid='59649']/button[@controlid='1013']"
+				fullname="DRORepository.SnapXUntitled.Container59649.Button"
+				id="165dc00a26df41e6beed9240385ef914"
+				timeout="90000"
+				codefile="d:\OTHERS\DRO\DRO\Recording1.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.353"
+			timeRelativeToTestModuleStartTime="00:02.353"
+			timeWallClock="13:57:11"
+			time="00:02.353"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SnapXUntitled.Container59649.Button1' at 8;7.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@title='Untitled' and @class='Afx:002A0000:b:00010003:00000006:002700B5']//container[@controlid='59649']/button[@controlid='1014']"
+				fullname="DRORepository.SnapXUntitled.Container59649.Button1"
+				id="379976153a694187b7858d3400d2de19"
+				timeout="90000"
+				codefile="d:\OTHERS\DRO\DRO\Recording1.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.173"
+			timeRelativeToTestModuleStartTime="00:04.173"
+			timeWallClock="13:57:13"
+			time="00:04.173"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SnapXUntitled.Container59649.Button2' at 9;8.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@title='Untitled' and @class='Afx:002A0000:b:00010003:00000006:002700B5']//container[@controlid='59649']/button[@controlid='1015']"
+				fullname="DRORepository.SnapXUntitled.Container59649.Button2"
+				id="c55c07d68afc4e329d9fbddc642fd86f"
+				timeout="90000"
+				codefile="d:\OTHERS\DRO\DRO\Recording1.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

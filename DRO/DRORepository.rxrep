@@ -1,0 +1,265 @@
+﻿<repository
+id="1a642ed6-92b8-49b3-bb30-a67c577d10e4"
+name="DRORepository"
+rxversion="7.0">
+	<codegen
+	classname="DRORepository"
+	namespace="DRO">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="e0b64d77-19ea-4874-bc24-f85affbc4121"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="5967e1e4-c72a-4711-9566-64e9242f7732"
+		isrooted="True"
+		name="SnapXUntitled"
+		refpath="/form[@title='Snap-X - [Untitled]']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="28c4f339-6efa-4034-ba92-c7695fa1ef4e"
+			name="Z_DRO_Value"
+			refimgid="8e375df2-3088-48e3-96f2-412d2bb8bb72"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@title='Untitled']//container[@controlid='59649']/text[@controlid='1019']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="8739a128-3492-4559-b316-fb73dc535f1d"
+			name="Y_DRO_Value"
+			refimgid="3c600034-40b4-44b8-ad7f-a0ca02134e93"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@title='Untitled']//container[@controlid='59649']/text[@controlid='1018']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="530eda37-65dc-4573-84cc-4416bbc3577e"
+			name="X_DRO_Value"
+			refimgid="77686ceb-1adc-4a2a-86a3-676e6175f620"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@title='Untitled']//container[@controlid='59649']/text[@controlid='1017']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="ebeb820f-8926-4e2b-afc6-e4e2cbeb82ba"
+			name="InchMillimeterButton"
+			refimgid="cf166abf-b781-477b-a6be-989d38278c6c"
+			searchtimeout="30000ms">
+				<image
+				guid="e2a89762-f7f7-4aca-9e36-24377a303b9e"
+				name="Screenshot_inch_mm">
+					iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAGMSURBVFhHzZgBrsIgFAR7RO/hqbxPL+MJqkuc
+ZIML2Gpbt5mEz3vAhDT56vTMIi6XyzLP83K/35ejorN0ps7GowjdbrdXy3mRQxGSHbler6dAyk3p
+ypTUeCSKXCbeGS/q6vzvI1DkMpXRM6lpD14v7ts8iUIsYHFrk7X09iNDoTS/BSSgrpNDhJCA1EN2
+F0ICUo8guwohAakHyG5CSEDqcUgU+pa1MoL8XGiLjCA/FdoqI0hXaM3m3pv6ezVBmkJlsT+NjYQf
+lvo0p48XkHpIFCobp6dxmJPqLtOSIl8JlT7Da95ziFDpMXy9o9rXQqIc5I9tUGqGr0uopycjSFNI
+pEN9zudHjNaQrlCNb9raeCvkY6E9ZQT5SKgnU8/XPaM6kKGQb5g28rk0HtWBfPxS1xt4T288qgNp
+CmmBU9fBa2k8qgOJQmp2vFbj9TQe1YG8CanR8UUJ70njUR1I94Z8bm9I/Cp9Bkr5Kv13Pzb83c8x
+elf0H/js8CmgCAnZ6cp4p46IztKZr5t5Mi0PWdIagOvImlgAAAAASUVORK5CYII=
+				</image>
+				<image
+				guid="256795ec-3c07-4785-939f-59c984418f33"
+				name="Screenshot_mm_inch">
+					iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAGTSURBVFhHzZiBjcIwEARTIn1QFf3QDBXk2RMj
+7ZuNDYEkbDSS33e2R1akB6Z7ZnE6nebr9Trfbrd5r+gsnamz8Sihy+XyaDkucigh2ZHz+XwIpG5K
+V6akxj1R5DLxznhRV+d/74Eil6lG96SmLXi8uE/zJAqxgMVLm7xLbz8yFErza0AC2jrZRQgJSD1k
+cyEkIPUIsqkQEpB6gGwmhASkHodEoU95V0aQrwutkRHkq0JrZQTpCr2zufem/l5NkEUhLdRHAlja
+SPhhqa/m/Qk9JAppgcv0pOowI9bT0/SSj4TqMMNr/3rS0/ST1UJ1kOHrnaqnp1lDVr1DdYjh6xLV
+509YQxaFRDrU53x+xGgN6Qq1+KZLG6+FvCy0pYwgLwn1ZNr5tmdUBzIU8g3TRj6XxqM6kJdf6nYD
+7+mNR3Ugi0Ja4LR18Foaj+pAopCaHa+1eD2NR3UgT0JqdHxRwnvSeFQH0r0hn9saEr9KH4FSX6V/
+7seGn/s5Ru+K/psfHT5RlJCQna6Md2qP6Cyd+biZO9P8B+eNGoD08ZvzAAAAAElFTkSuQmCC
+				</image>
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@title='Untitled']//container[@controlid='59649']/button[@controlid='1666']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="778932f9-8b7f-4138-bae9-8c54e171819a"
+			name="MoveStageButton"
+			refimgid="eccc2080-da0f-4155-b18e-bfbc96868006"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@title='Untitled']//container[@controlid='59649']/button[@controlid='1668']
+			</item>
+			<folder
+			addcaps="container,nativewindow"
+			capname="container"
+			id="610a540c-1bf4-46e6-ac34-9a1c565c4cc2"
+			isrooted="True"
+			name="MoveStageOption"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="button,nativewindow"
+				capname="button"
+				id="456f7989-d900-4487-b1ee-ac1bca7daa0b"
+				name="ButtonGoTo"
+				refimgid="215b4e60-52f9-44ea-bffe-75eef2b8e8db"
+				searchtimeout="30000ms">
+					/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@title='Untitled']//element[@controlid='59664']/container[@controlid='59648']/button[@text='&amp;Go To']
+				</item>
+				<item
+				addcaps="text,nativewindow"
+				capname="text"
+				id="3ded1822-ca7b-45c2-86bc-18acc63cfa7a"
+				name="X_Value"
+				refimgid="436f91fb-df25-4f8a-8894-c513c05924d6"
+				searchtimeout="30000ms">
+					/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@title='Untitled']//element[@controlid='59664']/container[@controlid='59648']/text[@controlid='2362']
+				</item>
+				<item
+				addcaps="text,nativewindow"
+				capname="text"
+				id="5204792c-8fd1-46ac-bc0b-d3ff4d5bde23"
+				name="Y_Value"
+				refimgid="0022ffc4-e874-4645-bed5-257fdabd9f18"
+				searchtimeout="30000ms">
+					/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@title='Untitled']//element[@controlid='59664']/container[@controlid='59648']/text[@controlid='2363']
+				</item>
+				<item
+				addcaps="button,nativewindow"
+				capname="button"
+				id="6c32911a-9c5a-4cf3-b6e4-c04f4e3c3098"
+				name="ButtonClose"
+				refimgid="2f8f3b7b-eca8-4d86-9d40-6eef95cea478"
+				refpath="/form[@title='Snap-X - [Untitled]']/container/form[@controlid='65280' and @title='Untitled' and @class='Afx:001F0000:b:00010003:00000006:01F0035B']/element[@controlid='59648']/element[@controlid='59649']/element/container[@controlid='59648']/button[@text='&amp;Close']"
+				searchtimeout="30000ms">
+					/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@title='Untitled']//element[@controlid='59664']/container[@controlid='59648']/button[@text='&amp;Close']
+				</item>
+				<basepath>
+					/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@title='Untitled']//element[@controlid='59664']/container[@controlid='59648']
+				</basepath>
+			</folder>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="4268e7f9-23f5-49d5-896e-c8ab7d81b72f"
+			name="AxisAlignmentButton"
+			refimgid="f07968d7-aa2d-4255-920a-c6589e31c492"
+			searchtimeout="30000ms">
+				<image
+				guid="d27fc3c1-5d94-45d7-8521-1b09030cfaac"
+				name="ScreenshotAxisOff">
+					iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAF4SURBVFhH7dhBkoMgFARQ75SLeAo3nsil9/Ey
+noChCW0pgvwvgllMV/UkRZj8NyapqdDZGLTve7Msi1nX1bQKZmEmZtPhQPM8+y3vBQYHgo75LIMZ
+zGS6yT7QoMM0uJmMu1K4ZIgI0pn4emExG4Gl43smtvHUSiAUgeV7zya26dQUCK99bF1RphxkF7dP
+SfiYokwZyGPGcSxGMfdBAaYUxdwDJTAlKEYPymDuohglSIa5g2LkICUGt/VAlTEokwc1wKDMNagR
+BmWyIAmiFIMy1yBUiDpgcJ/dP9dFmTwIzaBOg5UYlJGB0AQqOphrChQjB6EBSjRQiGKUILvPozR/
+vWQvowe522A91+ogbR8HAVKrfgaz3TsAUt09wdNl4iA7eeth/Q2QnTrtKnn9nyhzBAWYlijmH5Qq
+c/4q/QIGRdxXaR424BRi20BIIwxPQNxhA/5RMjgeif1CrWIeTz4QWOxF+LEDK//D6XDJ+J5qEczC
+TH9lbDvzB9tTl/IdOZAxAAAAAElFTkSuQmCC
+				</image>
+				<image
+				guid="63c6740a-033b-4281-814c-fa5b3dbeb0fd"
+				name="ScreenshotAxisOn">
+					iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAF8SURBVFhH7dhBkoMgFARQ7pSLeAo3nsil9/Ey
+noChCW0pgvwvgWQxneqJZUj+G5OpqWBcLDoMg13X1W7bZnsFszATs+nwoGVZwpLvBQYPgo55raMd
+7WzN7B7o0HEe/UzGXylcMkQEMTZ9vrKYjcBi+JlJLby0EQhFYHkfuaQWXZoD4b1PnVeUqQe5k/tf
+SfyYokwdKGCmaapGMc9BEaYWxTwDZTA1KEYPKmCeohglSIZ5gmLkICUG9+1AjTEoUwZ1wKDMPagT
+BmWKIAmiFoMy9yBUiDphcMweX+umTBmEFlCXwUoMyshAaAaVHMxzChQjB6ERSjRQiGKUILcuoDS/
+vWQtowf5++h8qc1B2n4cBEirhhnMfnQC5Hp4gU+XSYPc5L2n898AAXG8xahGZc6gGMNbBxTzD8qV
+uX6VjlEdMCjiv0pzswG7EPsCINjDk1qVOyB+swH/KBlsj6Se0KqYx50PBBZ3EX5swyr88DpcMn6m
+egSzMDNcGVdj/wAj26BQX7/80gAAAABJRU5ErkJggg==
+				</image>
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@title='Untitled']//container[@controlid='59649']/button[@controlid='1665']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="79796d2e-b982-4237-853e-f6025168c5f1"
+			name="CartesianPolarButton"
+			refimgid="6f66e6a7-8181-44f1-a2ac-40de62a3154d"
+			searchtimeout="30000ms">
+				<image
+				guid="4dbef803-1ebe-4288-8a07-4f8917e2e51e"
+				name="ScreenshotRA_XY">
+					iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAGuSURBVFhHzZgBboNAEAN5Yv7Bq/IfPsMLKF7F
+krvx7ZFrAxiNFHZ9exac1DTTrg08Ho9tWZZtXdftLGEv7Im9mSMCPZ/Pl+U6IUMEQjpqnudLoOJJ
+4ZFBzngmELJMPDPOdCYQskzxaZc28S71XmuuV9UzcU6Ml/o4UP7s7lvAp2iPsoGALsiLteZ6DviU
+3KeagUBrMal6CudU86ivB+KM3ixq+JVVdcIQxHkINXSoqxphCOI8CvWVQAxBnCdDlWdohJEwgPrX
+QKNhAFUG+mS4ep2/6gGqGQgL8ZWAtAYB3cz5oq6X8VDNQ61hqlCxmWD77kpe6k+BYjNBe7887kp+
+ajhQbCToeiX67kprqKEzFJsIus4RPr3MGqoZCLhNtab1Hr01VBkoo0Nbg0ehDgeqwlQ9pepThwLp
+Zm5grjkP660e1Q3EIdWwXHc+rbk+dfhQuyEk95xXa65PNQNhkZL7yhGv1p2HsoF0uFucUY/z6yxF
+PdRboGpRi+zr3bsaVT4hrVX0Nuz1AXW/f6Vv92PD7X6OwbvEX/OrxW8UEQggHR4Zz9QZwl7Y8/Vk
+dqbtB/qiEvocCXi6AAAAAElFTkSuQmCC
+				</image>
+				<image
+				guid="a15afeb8-7c27-49fe-a8a6-20533940dba9"
+				name="ScreenshotXY_RA">
+					iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAGnSURBVFhHzZiBrYNADEMZkT2Yin1Yhgn4+FRL
+VurkKP0FjJ5UEl/OgpN+f4ddGxjHcVuWZVvXdbtK2At7Ym/maIHmeX5Z7hMytEBIR03TdAtUe1J4
+ZJAzXgmELAPPjDNdCYQsQ/u0S5t4l3qvNder6pF2ToyX+jhQ/OzuM+BTtEfZQEAXxMVacz0HfErs
+U2kgkC0mVU/hnGoe9fNAnNGbRZ1+ZVWdMARxHkKdOtRVjTAEcR6F+kkghiDOE6HKM3SGM2EA9a+B
+zoYBVBnok+Hqdf6qB6g0UFusVzII6GbOhxq+XhDnodJDba9kM8X1NUwWivoqUPMJ2lPPJYGaR9D1
+CnpfBwJtI71kQOsJus4BTxUGUGkg4DbVmtZ79NZQZaCIDs0Gn4U6HKgKU/WUqk8dCqSbuYGx5jys
+Zz2qG4hDqmGx7nxac33q8KF2Q0jsOa/WXJ9KA2GREvvKEa/WnYeygXS4WxxRj/PrLEU91FugalFG
+9PXuXY0qn5DWKnob9vqAet6/0o/7seFxP8fgXeIv8N3it4AWCCAdHhnP1BXCXtjz9WR2hu0PbOcS
++mM2g2cAAAAASUVORK5CYII=
+				</image>
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@title='Untitled']//container[@controlid='59649']/button[@controlid='1667']
+			</item>
+			<basepath>
+				/form[@title='Snap-X - [Untitled]']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAGqSURBVDhPjVM9SwNBEF2/EcUuaJLdvd1LqihY
+BBFtRPAfWKkgWNpZqKUpLARLCzEggk0gweQuKURtBCsFwcJGsRLsLAQFBRXju73R3MUoPnjs3bx5
+s7Ozd+wLTlxPukJX/+AGpX4jm0630SNjGcaaHaGvGhgNHa6O8n3JiMv1DLiF2IUj1BvZfRixgdmQ
+q1es7/67OnOEtVCWUpPVR4GxFojXISPR4foFG2TLItFP6Y1REno+ZESbnrEoZZRSfofL7TkkP9QK
+qMtiXA2S/AOFVKrdf4ikurFTsW7nnf1kssMkEA57e7twlGlwFwNfrXA9xPKcd2JAJ2GzXiePwZ6U
+NrrZRtFHrDnHshRJXttqM2gGD6qMNXmat0JfQuzZaNjImIKAQFfjs8jtAZK84pmghs7uSKohlICr
+orAB2p0N6h4xlx6SfaDqRygpbo2TxI7ZWCvOfRPUHZlIk+wDn+hauIh6Qmy5ErWlp9d3UeL2lDEG
+gaqjZrpC3QeT8X6L4qfBGOayQrbGcIWIlWLWiCv1hGFcDaOjxVoRlaPU/8ObBYz+P8LVOYUBxj4B
+q6oLt3Pkl98AAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<item
+		addcaps="button,nativewindow"
+		capname="button"
+		id="c55c07d6-8afc-4e32-9d9f-bddc642fd86f"
+		name="ButtonZ"
+		refimgid="5cc4d768-ee68-4333-8c9c-03d43eadc143"
+		searchtimeout="30000ms">
+			/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@title='Untitled']//container[@controlid='59649']/button[@controlid='1015']
+		</item>
+		<item
+		addcaps="button,nativewindow"
+		capname="button"
+		id="37997615-3a69-4187-b785-8d3400d2de19"
+		name="ButtonY"
+		refimgid="30083705-e259-4065-aa19-785d2e138827"
+		searchtimeout="30000ms">
+			/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@title='Untitled']//container[@controlid='59649']/button[@controlid='1014']
+		</item>
+		<item
+		addcaps="button,nativewindow"
+		capname="button"
+		id="165dc00a-26df-41e6-beed-9240385ef914"
+		name="ButtonX"
+		refimgid="37ecd994-28a6-43b4-9995-4b0e9954db32"
+		searchtimeout="30000ms">
+			/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@title='Untitled']//container[@controlid='59649']/button[@controlid='1013']
+		</item>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

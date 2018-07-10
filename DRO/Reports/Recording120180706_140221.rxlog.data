@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="284753342bb81d09"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="EVMX"
+		host="SNAPDM200"
+		rxversion="7.0.1.0"
+		osversion="Windows 7 Service Pack 1 32bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="7/6/2018 14:02:23"
+		timestampiso="2018-07-06T11:02:23"
+		timeoutfactor="1"
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<errormessage>
+			Attribute 'WindowText' of element for item 'DRORepository.SnapXUntitled.X_text' does not match the specified value (actual='+84.9842       ', expected='+0.0000        ').
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.067"
+			timeRelativeToTestModuleStartTime="00:00.067"
+			timeWallClock="14:02:23"
+			time="00:00.067"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Button' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@title='Untitled']//container[@controlid='59649']/button[@controlid='1013']"
+				fullname="DRORepository.Button"
+				id="165dc00a26df41e6beed9240385ef914"
+				timeout="30000"
+				codefile="d:\OTHERS\DRO\DRO\Recording1.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.351"
+			timeRelativeToTestModuleStartTime="00:03.351"
+			timeWallClock="14:02:26"
+			time="00:03.351"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Button1' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@title='Untitled']//container[@controlid='59649']/button[@controlid='1014']"
+				fullname="DRORepository.Button1"
+				id="379976153a694187b7858d3400d2de19"
+				timeout="30000"
+				codefile="d:\OTHERS\DRO\DRO\Recording1.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.794"
+			timeRelativeToTestModuleStartTime="00:05.794"
+			timeWallClock="14:02:29"
+			time="00:05.794"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Button2' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@title='Untitled']//container[@controlid='59649']/button[@controlid='1015']"
+				fullname="DRORepository.Button2"
+				id="c55c07d68afc4e329d9fbddc642fd86f"
+				timeout="30000"
+				codefile="d:\OTHERS\DRO\DRO\Recording1.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.163"
+			timeRelativeToTestModuleStartTime="00:08.163"
+			timeWallClock="14:02:31"
+			time="00:08.163"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 10s.
+			</message>
+			<metainfo
+				itemindex="3"
+				codefile="d:\OTHERS\DRO\DRO\Recording1.cs"
+				codeline="94"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:18.166"
+			timeRelativeToTestModuleStartTime="00:18.166"
+			timeWallClock="14:02:41"
+			time="00:18.166"
+			level="Info"
+			category="Validation"
+			errimg=".\Recordin_720075f5_29e409b4_trace.jpg"
+			errthumb=".\Recordin_720075f5_29e409b4_trace_thumb.jpg">
+			<message>
+				Validating AttributeEqual (WindowText='+0.0000        ') on item 'SnapXUntitled.X_text'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@title='Untitled']//container[@controlid='59649']/text[@controlid='1017']"
+				fullname="DRORepository.SnapXUntitled.X_text"
+				id="530eda3765dc457384cc4416bbc3577e"
+				timeout="60000"
+				codefile="d:\OTHERS\DRO\DRO\Recording1.cs"
+				codeline="97"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.764"
+			timeRelativeToTestModuleStartTime="00:19.764"
+			timeWallClock="14:02:43"
+			time="00:19.764"
+			level="Failure"
+			category="Validation"
+			errimg=".\Recordin_720075f5_09293bb2_trace.jpg"
+			errthumb=".\Recordin_720075f5_09293bb2_trace_thumb.jpg">
+			<message>
+				Attribute 'WindowText' of element for item 'DRORepository.SnapXUntitled.X_text' does not match the specified value (actual='+84.9842       ', expected='+0.0000        ').
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@title='Untitled']//container[@controlid='59649']/text[@controlid='1017']"
+				fullname="DRORepository.SnapXUntitled.X_text"
+				id="530eda3765dc457384cc4416bbc3577e"
+				timeout="60000"
+				codefile="d:\OTHERS\DRO\DRO\Recording1.cs"
+				codeline="98"
+				loglvl="Failure"
+				itemindex="4">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.768"
+			timeRelativeToTestModuleStartTime="00:19.768"
+			timeWallClock="14:02:43"
+			time="00:19.768"
+			level="Error"
+			category="Module"
+			errimg=".\Recordin_720075f5_09293bb2_trace.jpg"
+			errthumb=".\Recordin_720075f5_09293bb2_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Attribute 'WindowText' of element for item 'DRORepository.SnapXUntitled.X_text' does not match the specified value (actual='+84.9842       ', expected='+0.0000        ').
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Validate.IsTrueInternal(Boolean condition, String message, Options options, RepoItemInfo itemInfo)
+   at Ranorex.Validate.AttributeInternal(Element element, String name, Object value, String message, Options options, RepoItemInfo itemInfo)
+   at Ranorex.Validate.Attribute(RepoItemInfo itemInfo, String name, Object value, String message, Options options)
+   at Ranorex.Validate.Attribute(RepoItemInfo itemInfo, String name, Object value)
+   at DRO.Recording1.Ranorex.Core.Testing.ITestModule.Run() in d:\OTHERS\DRO\DRO\Recording1.cs:line 98
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Boolean skipIteration)"
+				codefile="d:\OTHERS\DRO\DRO\Recording1.cs"
+				codeline="98"
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@title='Untitled']//container[@controlid='59649']/text[@controlid='1017']"
+				fullname="DRORepository.SnapXUntitled.X_text"
+				id="530eda3765dc457384cc4416bbc3577e"
+				timeout="60000"
+				loglvl="Error"
+				itemindex="4">
+			</metainfo>
+		</item>
+	</activity>
+</report>
