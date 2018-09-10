@@ -48,9 +48,9 @@ namespace DRO
             : base("DRORepository", "/", null, 0, false, "e0b64d77-19ea-4874-bc24-f85affbc4121", ".\\RepositoryImages\\DRORepositorye0b64d77.rximgres")
         {
             _snapxuntitled = new DRORepositoryFolders.SnapXUntitledAppFolder(this);
-            _buttonzInfo = new RepoItemInfo(this, "ButtonZ", "/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@title='Untitled']//container[@controlid='59649']/button[@controlid='1015']", 30000, null, "c55c07d6-8afc-4e32-9d9f-bddc642fd86f");
-            _buttonyInfo = new RepoItemInfo(this, "ButtonY", "/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@title='Untitled']//container[@controlid='59649']/button[@controlid='1014']", 30000, null, "37997615-3a69-4187-b785-8d3400d2de19");
-            _buttonxInfo = new RepoItemInfo(this, "ButtonX", "/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@title='Untitled']//container[@controlid='59649']/button[@controlid='1013']", 30000, null, "165dc00a-26df-41e6-beed-9240385ef914");
+            _buttonzInfo = new RepoItemInfo(this, "ButtonZ", "/form[@title='SNAP-X - [Untitled]']/container[@controlid='59648']/form[@title='Untitled']//container[@controlid='59649']/button[@controlid='1015']", 30000, null, "c55c07d6-8afc-4e32-9d9f-bddc642fd86f");
+            _buttonyInfo = new RepoItemInfo(this, "ButtonY", "/form[@title='SNAP-X - [Untitled]']/container[@controlid='59648']/form[@title='Untitled']//container[@controlid='59649']/button[@controlid='1014']", 30000, null, "37997615-3a69-4187-b785-8d3400d2de19");
+            _buttonxInfo = new RepoItemInfo(this, "ButtonX", "/form[@title='SNAP-X - [Untitled]']/container[@controlid='59648']/form[@title='Untitled']//container[@controlid='59649']/button[@controlid='1013']", 30000, null, "165dc00a-26df-41e6-beed-9240385ef914");
         }
 
 #region Variables
@@ -176,7 +176,7 @@ namespace DRO
             /// Creates a new SnapXUntitled  folder.
             /// </summary>
             public SnapXUntitledAppFolder(RepoGenBaseFolder parentFolder) :
-                    base("SnapXUntitled", "/form[@title='Snap-X - [Untitled]']", parentFolder, 30000, null, true, "5967e1e4-c72a-4711-9566-64e9242f7732", "")
+                    base("SNAPXUntitled", "/form[@title='SNAP-X - [Untitled]']", parentFolder, 30000, null, true, "5967e1e4-c72a-4711-9566-64e9242f7732", "")
             {
                 _movestageoption = new DRORepositoryFolders.MoveStageOptionFolder(this);
                 _z_dro_valueInfo = new RepoItemInfo(this, "Z_DRO_Value", "container[@controlid='59648']/form[@title='Untitled']//container[@controlid='59649']/text[@controlid='1019']", 30000, null, "28c4f339-6efa-4034-ba92-c7695fa1ef4e");
